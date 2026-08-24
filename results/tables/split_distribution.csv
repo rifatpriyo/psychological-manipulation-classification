@@ -1,0 +1,5 @@
+split,charm_flattery,direct_coercion,gaslighting,guilt_tripping,love_bombing,neutral,passive_aggressive,All
+test,131,182,308,185,299,198,151,1454
+train,1059,981,842,1025,944,1104,983,6938
+validation,210,237,250,190,157,298,266,1608
+All,1400,1400,1400,1400,1400,1600,1400,10000

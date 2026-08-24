@@ -1,0 +1,11 @@
+Model,Correct,Total,Accuracy,Macro-F1,Mean confidence
+BERT Base,6,7,0.8571,0.8095,0.9444
+Logistic Regression,6,7,0.8571,0.8095,0.4615
+Naive Bayes,6,7,0.8571,0.8095,0.8848
+Random Forest,5,7,0.7143,0.6190,0.3638
+GRU,5,7,0.7143,0.6190,0.8014
+Bidirectional LSTM,5,7,0.7143,0.6190,0.7367
+LSTM,4,7,0.5714,0.5238,0.8383
+Bidirectional SimpleRNN,4,7,0.5714,0.4762,0.6837
+Bidirectional GRU,4,7,0.5714,0.4524,0.7570
+SimpleRNN,4,7,0.5714,0.4286,0.5981

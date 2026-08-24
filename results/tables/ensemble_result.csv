@@ -1,0 +1,2 @@
+components,selected_weights,validation_macro_f1,test_accuracy,test_macro_f1,test_weighted_f1,best_individual_macro_f1,genuine_macro_f1_improvement
+"[""Random Forest"", ""Bidirectional LSTM"", ""BERT Base""]","{""BERT Base"": 0.2, ""Bidirectional LSTM"": 0.6, ""Random Forest"": 0.2}",1.0,1.0,1.0,1.0,1.0,False

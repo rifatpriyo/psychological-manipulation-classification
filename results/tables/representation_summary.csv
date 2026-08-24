@@ -1,0 +1,4 @@
+representation,dimensions,vocabulary_size,training_or_loading,training_coverage,validation_oov_rate,test_oov_rate,advantage,limitation
+TF-IDF,2859,2859,fit on training corpus only,1.0000,0.3414,0.3346,strong sparse lexical and n-gram signals,limited semantic sharing
+Word2Vec,100,585,skip-gram trained on training corpus only,0.9915,0.0001,0.0000,task-specific dense semantics,small corpus and one vector per word
+GloVe,50,400000,gensim-data pretrained glove-wiki-gigaword-50,0.9424,0.2943,0.2845,broad pretrained semantic knowledge,domain mismatch and static vectors

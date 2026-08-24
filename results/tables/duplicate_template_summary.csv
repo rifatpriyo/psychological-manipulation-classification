@@ -1,0 +1,10 @@
+measure,value
+exact duplicate rows,2081
+exact duplicate groups,536
+normalized duplicate rows,2081
+normalized duplicate groups,536
+conflicting normalized groups,0
+rows with nearest similarity >= 0.98,4858
+near-duplicate components,5902
+largest component,70
+mixed-label components,0

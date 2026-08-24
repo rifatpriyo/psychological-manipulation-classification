@@ -1,0 +1,13 @@
+requirement,status
+"English textual dataset with at least 10,000 rows and 4 classes",True
+Seven target classes verified,True
+Approximately 70/15/15 group-aware train/validation/test split,True
+Conversation IDs and template groups are disjoint,True
+Forbidden metadata excluded from model input,True
+"TF-IDF, train-only Word2Vec, and pretrained GloVe implemented",True
+All 10 required model names implemented,True
+At least three configurations recorded per model,True
+At least 30 tuning runs recorded,True
+Every selected model evaluated without test tuning,True
+Ensemble result saved,True
+Ablation and error analyses saved,True

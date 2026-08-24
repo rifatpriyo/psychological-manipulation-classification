@@ -1,0 +1,72 @@
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Raw and downloaded datasets
+data/**
+!data/README.md
+*.jsonl
+
+# Experiment outputs, caches, and trackers
+CSE440_Project_Outputs/
+checkpoints/
+wandb/
+runs/
+logs/
+.cache/
+.huggingface/
+.gensim-data/
+
+# Model weights and serialized estimators
+*.safetensors
+*.pt
+*.pth
+*.keras
+*.h5
+*.weights.h5
+*.joblib
+*.kv
+*.index
+*.data-*
+checkpoint
+
+# Large arrays, probabilities, and archives
+*.npy
+*.npz
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Credentials and private keys
+kaggle.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+~$*

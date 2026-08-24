@@ -1,0 +1,22 @@
+# Core analysis stack used by the completed Kaggle Python 3.12 run
+numpy>=2.0,<2.1
+pandas>=2.3,<2.4
+scipy>=1.16,<1.17
+matplotlib>=3.10,<3.11
+seaborn>=0.13,<0.14
+scikit-learn>=1.6,<1.7
+joblib>=1.4,<2
+ipython>=8,<10
+
+# Text representations and visualization
+gensim==4.4.0
+wordcloud>=1.9.4,<2
+
+# Neural and transformer models
+tensorflow>=2.16,<2.22
+torch>=2.5,<3
+transformers>=4.57,<5
+accelerate>=1.1,<2
+
+# Kaggle dataset access
+kagglehub>=0.3.12,<1

@@ -1,0 +1,15 @@
+Expected,Predicted,Confidence,Correct
+charm_flattery,charm_flattery,0.3035,True
+charm_flattery,charm_flattery,0.2425,True
+direct_coercion,direct_coercion,0.3877,True
+direct_coercion,direct_coercion,0.3605,True
+gaslighting,gaslighting,0.5055,True
+gaslighting,passive_aggressive,0.3218,False
+guilt_tripping,guilt_tripping,0.5567,True
+guilt_tripping,direct_coercion,0.3090,False
+love_bombing,love_bombing,0.4838,True
+love_bombing,love_bombing,0.6149,True
+neutral,neutral,0.8256,True
+neutral,neutral,0.5924,True
+passive_aggressive,direct_coercion,0.2084,False
+passive_aggressive,passive_aggressive,0.5723,True

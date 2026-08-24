@@ -1,0 +1,11 @@
+model_name,selected_configuration,accuracy,macro_f1,weighted_f1,training_time_seconds,inference_time_seconds,model_size_mb,evaluation_status,failure_reason
+Random Forest,RF_C3,1.0000,1.0000,1.0000,10.2700,0.5547,30.5229,completed,
+Logistic Regression,LR_C1,1.0000,1.0000,1.0000,1.4822,0.1139,0.2502,completed,
+Naive Bayes,NB_C2,1.0000,1.0000,1.0000,0.3801,0.0847,0.4031,completed,
+SimpleRNN,SRNN_C3,0.9732,0.9692,0.9729,74.7046,0.9380,1.0122,completed,
+GRU,GRU_C3,0.9979,0.9977,0.9979,7.8851,0.3630,1.1776,completed,
+LSTM,LSTM_C3,0.9993,0.9992,0.9993,8.0176,0.4190,1.2578,completed,
+Bidirectional SimpleRNN,BSRNN_C3,0.9966,0.9960,0.9966,108.8325,1.3698,1.1083,completed,
+Bidirectional GRU,BGRU_C1,0.9972,0.9968,0.9973,5.3663,0.4949,0.6388,completed,
+Bidirectional LSTM,BLSTM_C3,0.9993,0.9992,0.9993,11.0800,0.5925,1.5995,completed,
+BERT Base,BERT_C1,1.0000,1.0000,1.0000,216.5061,2.3020,418.5920,completed,

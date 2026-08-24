@@ -1,0 +1,8 @@
+Example,Expected,Random Forest,Logistic Regression,Naive Bayes,SimpleRNN,GRU,LSTM,Bidirectional SimpleRNN,Bidirectional GRU,Bidirectional LSTM,BERT Base
+1,charm_flattery,neutral,charm_flattery,charm_flattery,direct_coercion,charm_flattery,charm_flattery,direct_coercion,gaslighting,neutral,charm_flattery
+2,direct_coercion,direct_coercion,direct_coercion,direct_coercion,direct_coercion,direct_coercion,neutral,neutral,neutral,direct_coercion,direct_coercion
+3,gaslighting,gaslighting,gaslighting,gaslighting,love_bombing,guilt_tripping,guilt_tripping,gaslighting,gaslighting,gaslighting,gaslighting
+4,guilt_tripping,guilt_tripping,guilt_tripping,guilt_tripping,guilt_tripping,guilt_tripping,gaslighting,guilt_tripping,guilt_tripping,guilt_tripping,guilt_tripping
+5,love_bombing,love_bombing,love_bombing,love_bombing,love_bombing,love_bombing,love_bombing,gaslighting,love_bombing,gaslighting,love_bombing
+6,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+7,passive_aggressive,gaslighting,direct_coercion,direct_coercion,guilt_tripping,direct_coercion,passive_aggressive,passive_aggressive,neutral,passive_aggressive,neutral

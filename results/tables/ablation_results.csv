@@ -1,0 +1,15 @@
+ablation_family,variant,validation_accuracy,validation_macro_f1
+speaker_markers,with_markers,1.0000,1.0000
+speaker_markers,without_markers,1.0000,1.0000
+preprocessing,minimal,1.0000,1.0000
+preprocessing,normalized,1.0000,1.0000
+embedding_source,Word2Vec,0.9994,0.9992
+embedding_source,GloVe,0.9639,0.9625
+directionality_SimpleRNN,unidirectional,0.6063,0.5669
+directionality_SimpleRNN,bidirectional,0.9701,0.9714
+directionality_GRU,unidirectional,0.9627,0.9604
+directionality_GRU,bidirectional,0.9981,0.9983
+directionality_LSTM,unidirectional,0.9925,0.9929
+directionality_LSTM,bidirectional,0.9988,0.9987
+split_policy,group_aware,1.0000,1.0000
+split_policy,ordinary_stratified_diagnostic,1.0000,1.0000
