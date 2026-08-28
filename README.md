@@ -210,7 +210,6 @@ The complete normalized confusion matrices are available in [`assets/figures/all
 4. Upload [the notebook](notebooks/CSE440_Psychological_Manipulation_Classification.ipynb).
 5. Run all cells in order. The full workflow includes 30 tuning configurations and three BERT runs; it is intentionally compute-intensive.
 6. Retrieve outputs from `/kaggle/working/CSE440_Project_Outputs`.
-
 The completed reference run used Kaggle Python 3.12.13, TensorFlow 2.20.0, PyTorch 2.10.0 with CUDA, and a Tesla T4 runtime. See the complete [reproducibility guide](docs/REPRODUCIBILITY.md) before rerunning.
 
 ## Repository Structure
